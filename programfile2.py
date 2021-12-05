@@ -1,9 +1,10 @@
 # Program 2: Guess the number
 
+import random 
+
 def guess_number():
-    correct = 'stop'
-    while correct == random_number:
-        
+    random_number = random.randint(0,100)  # Generate 1 random number (0-100)
+
 
 # Generate 1 random number (0-100)
 # Ask the user to guess the number
