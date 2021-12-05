@@ -33,5 +33,5 @@ def lottery():
     # if the user enter 'y' the user will play again
     # if 'n' the program will exit 
 
-lottery_game = lottery()
+lottery()
 
