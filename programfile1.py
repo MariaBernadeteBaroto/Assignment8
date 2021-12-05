@@ -24,6 +24,11 @@ def lottery():
 
         numbers = number1, number2, number3    # ask for three numbers
 
+        if numbers == random_numbers:
+            print('Winner!')
+        else:
+            print('You loss!')
+
 
 # Display 'winner' if all 3 input numbers matched the generated numbers
 # Display 'You loss' if not
