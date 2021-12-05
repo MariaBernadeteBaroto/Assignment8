@@ -17,6 +17,7 @@ def lottery():
         random_number3 = random.randint(0,9)
 
         random_numbers = random_number1, random_number2, random_number3  # generated three(3) random numbers
+        print(random_numbers)
 
         number1 = int(input('Enter first number: '))
         number2 = int(input('Enter second number: '))
@@ -30,8 +31,8 @@ def lottery():
             print('You loss!')   # Display ' You loss' if not
 
         more_game = input('Wanna try again? (y or n): ')  # Display 'Try again y/n'
+    # if the user enter 'y' the user will play again
+    # if 'n' the program will exit 
 
 lottery_game = lottery()
 
-# if the user enter 'y' the user will play again
-# if 'n' the program will exit
