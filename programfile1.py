@@ -25,13 +25,13 @@ def lottery():
         numbers = number1, number2, number3    # ask for three numbers
 
         if numbers == random_numbers:
-            print('Winner!')
+            print('Winner!')    # Display 'winner' if all 3 input numbers matched the generated numbers
         else:
-            print('You loss!')
+            print('You loss!')   # Display ' You loss' if not
 
+        more_game = input('Wanna try again? (y or n): ')  # Display 'Try again y/n'
 
-# Display 'winner' if all 3 input numbers matched the generated numbers
-# Display 'You loss' if not
-# Dislay 'Try again y/n'
+lottery_game = lottery()
+
 # if the user enter 'y' the user will play again
 # if 'n' the program will exit
