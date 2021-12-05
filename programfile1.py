@@ -11,6 +11,12 @@ import random
 def lottery():
     more_game = 'yes'
     while more_game[0] == 'y':
+
+        random_number1 = random.randint(0,9)
+        random_number2 = random.randint(0,9)
+        random_number3 = random.randint(0,9)
+
+        random_numbers = random_number1, random_number2, random_number3  # generated three(3) random numbers
     
 
 
