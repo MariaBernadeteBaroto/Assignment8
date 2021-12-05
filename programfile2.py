@@ -5,6 +5,7 @@ import random
 def guess_number():
     random_number = random.randint(0,100)  # Generate 1 random number (0-100)
     guess = int(input('Enter your guess number: ')) # Ask the user to guess the number
+    while guess != random_number:
 
 
 # Generate 1 random number (0-100)
