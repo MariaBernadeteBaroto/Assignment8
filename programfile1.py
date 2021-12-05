@@ -17,7 +17,6 @@ def lottery():
         random_number3 = random.randint(0,9)
 
         random_numbers = random_number1, random_number2, random_number3  # generated three(3) random numbers
-        print(random_numbers)
 
         number1 = int(input('Enter first number: '))
         number2 = int(input('Enter second number: '))
