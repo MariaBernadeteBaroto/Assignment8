@@ -17,8 +17,12 @@ def lottery():
         random_number3 = random.randint(0,9)
 
         random_numbers = random_number1, random_number2, random_number3  # generated three(3) random numbers
-    
 
+        number1 = int(input('Enter first number: '))
+        number2 = int(input('Enter second number: '))
+        number3 = int(input('Enter three number: '))
+
+        numbers = number1, number2, number3    # ask for three numbers
 
 
 # Display 'winner' if all 3 input numbers matched the generated numbers
