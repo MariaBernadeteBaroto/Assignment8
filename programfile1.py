@@ -13,9 +13,7 @@ def lottery():
     while more_game[0] == 'y':
 
         list_numbers = [0,1,2,3,4,5,6,7,8,9]
-        random_numbers = random.sample(list_numbers, 3)
-        print(random_numbers)
-        # generated three(3) random numbers
+        random_numbers = random.sample(list_numbers, 3)  # generated three(3) random numbers
 
         print("Do not repeat input numbers")
         number1 = int(input('Enter first number: '))
